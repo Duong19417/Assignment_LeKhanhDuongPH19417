@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tong {
+    width: 82%;
+    height: 120vh;
+    margin: 0px auto;
+}
+
+#header {
+    width: 100%;
+    padding: 0px 30px;
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+}
+
+#menu .item {
+    margin: 0px 25px
+}
+
+#menu .item a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#bnt {
+    background-color: rgb(194, 193, 193);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+p {
+    font-size: 30px;
+}
+.Xanh {
+    background-color: blue;
+    color: white;
+    border: 4px solid blue;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin-top: 30px;
+}
+
+#khung .Xanh a {
+    text-decoration: none;
+    color: white;
+}
+
+#khung .Xanh a:hover {
+    text-decoration: underline;
+}
+
+.xam {
+    background-color: rgb(121, 121, 123);
+    color: rgb(255, 255, 255);
+    border: 4px solid rgb(121, 121, 123);
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin-top: 30px;
+}
+
+#khung .xam a {
+    text-decoration: none;
+    color: white;
+}
+
+#khung .xam a:hover {
+    text-decoration: underline;
+}
+
+#menu .item a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#bnt a {
+    text-decoration: none;
+    color: black;
+}
+
+#bnt a:hover {
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+#tieude {
+    padding: 0px 40px;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+#tieude .text h2{
+    font-size: 60px;
+}
+
+.star {
+    text-decoration: none;
+    background-color: blue;
+    border: 4px blue;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 25px;
+    color: white;
+    margin-top: 30px;
+}
+
+#get .star a {
+    text-decoration: none;
+    color: white;
+}
+
+#get .star a:hover {
+    text-decoration: underline;
+}
+
+#nen {
+    background-color: black;
+    width: 82%;
+    height: 205vh;
+    margin: 0px auto;s
+}
+
+#text {
+    text-align: left;
+    padding: 45px;
+    font-size: 40px;
+    margin-left: -5px;
+}
+
+#box {
+    display: flex;
+}
+
+.boxed {
+    width: 290px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 25px;
+    margin-left: 100px;
+}
+
+.boxed2 {
+    width: 290px;
+    height: 310px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 25px;
+    margin-left: 50px;
+}
+
+.boxed3 {
+    width: 290px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 25px;
+    margin-left: 50px;
+}
+
+.boxed4 {
+    width: 290px;
+    height: 310px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 25px;
+    margin-left: 50px;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+#body2 {
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+    height: 100vh;
+}
+
+#body2 .gia h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.box1 {
+    width: 240px;
+    height: 410px;
+    border-radius: 10px;
+    background-color: rgb(247, 246, 246);
+    margin-left: auto;
+    margin-top: 70px;
+    text-align: left;
+    padding: 20px 25px;
+    margin-right: 12px;
+}
+
+.box1 h3 {
+    font-size: 35px;
+}
+
+.box1 p {
+    font-size: 12px;
+}
+
+ul {
+    list-style: &#9745;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.star2 {
+    text-decoration: none;
+    background-color: blue;
+    border: 4px blue;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 25px;
+    color: white;
+}
+
+#get .star2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#get .star2 a:hover {
+    text-decoration: underline;
+}
+
+.box2 {
+    width: 240px;
+    height: 510px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-right: 500px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px 25px;
+}
+
+.box2 h3 {
+    font-size: 35px;
+    color: white;
+}
+
+.box2 p {
+    font-size: 12px;
+    color: white;
+}
+
+#boxgia {
+    display: flex;
+}
+.img1{
+    margin-top: -130px;
+}
+#body3 {
+    text-align: center;
+    margin-top: 40px;
+    width: 90%;
+    height: 100vh;
+
+}
